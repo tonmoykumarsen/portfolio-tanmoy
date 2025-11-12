@@ -1,6 +1,7 @@
 'use client';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPhp } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   const [mounted, setMounted] = useState(false);
@@ -18,7 +19,7 @@ const Skills = () => {
     { icon: FaPhp, color: "#777BB4" },
   ];
 
-  // repeat for smooth scroll
+  // repeat icons for smooth scroll
   const repeatedIcons = [...skillIcons, ...skillIcons];
 
   if (!mounted) return null;
@@ -32,35 +33,28 @@ const Skills = () => {
           <div className="w-10 h-[2px] bg-gray-700"></div>
         </div>
 
-        {/* Scrolling icons */}
-        <div className="relative overflow-hidden h-16 sm:h-20">
-          <div className="flex animate-slide">
+        {/* Framer Motion Scrolling Icons */}
+        <div className="overflow-hidden relative h-16 sm:h-20">
+          <motion.div
+            className="flex"
+            animate={{ x: ["0%", "-50%"] }}
+            transition={{ repeat: Infinity, duration: 12, ease: "linear" }}
+          >
             {repeatedIcons.map(({ icon: Icon, color }, idx) => (
               <div key={idx} className="mx-4 sm:mx-6 flex-shrink-0">
                 <Icon size={40} color={color} />
               </div>
             ))}
+          </motion.div>
+
+          {/* Mobile version: just centered icons */}
+          <div className="flex justify-center gap-6 sm:hidden mt-2">
+            {skillIcons.map(({ icon: Icon, color }, idx) => (
+              <Icon key={idx} size={30} color={color} />
+            ))}
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes slide {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-        .animate-slide {
-          display: flex;
-          animation: slide 12s linear infinite;
-        }
-
-        @media (max-width: 640px) {
-          .animate-slide {
-            animation: none; /* stop scrolling on mobile */
-            justify-content: center;
-          }
-        }
-      `}</style>
     </section>
   );
 };

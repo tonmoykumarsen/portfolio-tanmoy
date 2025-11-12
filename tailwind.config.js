@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-orbitron)"], // set Orbitron as default sans
+      },
       colors: {
         primary: "#00ADB5",
         darkBg: "#0B0C10",
