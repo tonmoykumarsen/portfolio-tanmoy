@@ -48,11 +48,11 @@ const Skills = () => {
           </motion.div>
 
           {/* Mobile version: just centered icons */}
-          <div className="flex justify-center gap-6 sm:hidden mt-2">
+          {/* <div className="flex justify-center gap-6 sm:hidden mt-2">
             {skillIcons.map(({ icon: Icon, color }, idx) => (
               <Icon key={idx} size={30} color={color} />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
