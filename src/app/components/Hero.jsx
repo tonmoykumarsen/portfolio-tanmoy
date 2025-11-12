@@ -62,7 +62,8 @@ export default function Hero() {
       </h3>
 
       <p className="max-w-xl text-gray-200 mb-8 leading-relaxed">
-        I build scalable, modern web applications integrating frontend and backend seamlessly.
+        I specialize in creating responsive web applications that seamlessly integrate front-end design with robust back-end functionality.
+
       </p>
 
       <div className="flex flex-wrap gap-4 justify-center">
