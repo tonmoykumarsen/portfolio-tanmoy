@@ -11,6 +11,7 @@ const orbitron = Orbitron({
 export const metadata = {
   title: "Tanmoy | Developer Portfolio",
   description: "Welcome to Tanmoy's Portfolio",
+  
 };
 
 export default function RootLayout({ children }) {

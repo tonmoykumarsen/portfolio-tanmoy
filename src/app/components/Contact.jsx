@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function Contact() {
   return (
@@ -39,7 +38,9 @@ export default function Contact() {
 
           {/* Contact Button */}
           <a
-            href="#contact-form"
+            href="https://www.linkedin.com/in/tonmoy-kumar-721b7b1b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&original_referer="
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-8 py-3 text-base font-medium bg-gray-900 border-2 border-gray-700 rounded-2xl text-white transition-all duration-300 hover:bg-white hover:text-black hover:shadow-lg"
           >
             Contact Me

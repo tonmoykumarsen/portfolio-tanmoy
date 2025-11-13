@@ -17,7 +17,7 @@ const Education = () => {
       institution: "Hazi Wahed Moriom College",
       location: "Sirajganj-Bogra Hwy, Sirajganj, Bangladesh",
       result: "GPA: 5.00 out of 5.00",
-      date: "March 2018 - Aug 2010",
+      date: "March 2018 - Aug 2020",
     },
     {
       title: "Secondary School Certificate (SSC)",

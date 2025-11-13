@@ -4,25 +4,25 @@ import { Github, ExternalLink, Youtube } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      name: "Editorial News 24",
-      tech: "Next JS | Java Spring Boot | MariaDB | Tailwind CSS | Docker",
-      img: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=500&fit=crop",
+      name: "React Task Manager",
+      tech: "React JS | Node JS | Express | MongoDB | Tailwind CSS",
+      img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=500&fit=crop",
       liveLink: "#",
       clientLink: "#",
       serverLink: "#",
     },
     {
-      name: "Doctors Portal",
-      tech: "React JS | Express JS | MongoDB | Tailwind CSS | Stripe",
-      img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      name: "Next Portfolio",
+      tech: "Next JS | Tailwind CSS | Framer Motion | DaisyUI",
+      img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=500&fit=crop",
       liveLink: "#",
       clientLink: "#",
       serverLink: "#",
     },
     {
-      name: "Migration Solution",
-      tech: "Next JS | Redux | Tailwind CSS | PHP-Laravel | MySQL | Docker",
-      img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=500&fit=crop",
+      name: "Next Admin Dashboard",
+      tech: "Next JS | Chart JS | Tailwind CSS | MongoDB | Auth",
+      img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=500&fit=crop",
       liveLink: "#",
       clientLink: "#",
       serverLink: "#",
@@ -76,7 +76,7 @@ export default function Projects() {
                 {project.tech}
               </p>
 
-              {/* Action Buttons - Dark with White Hover */}
+              {/* Action Buttons */}
               <div className="flex flex-wrap gap-2">
                 {project.liveLink && (
                   <a 
