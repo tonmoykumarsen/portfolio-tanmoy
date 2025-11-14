@@ -5,28 +5,28 @@ export default function Projects() {
   const projects = [
     {
       name: "React Task Manager",
-      tech: "React JS | Node JS | Express | MongoDB | Tailwind CSS",
-      img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=500&fit=crop",
-      liveLink: "#",
-      clientLink: "#",
-      serverLink: "#",
+      tech: "React JS | React Router | DaisyUI | Context API | Tailwind CSS",
+      img: "https://i.postimg.cc/3wbGTVS9/image.png",
+      liveLink: "https://task-manager-eight-theta-22.vercel.app/",
+      clientLink: "https://github.com/tonmoykumarsen/task-manager",
+      // serverLink: "#",
     },
     {
       name: "Next Portfolio",
       tech: "Next JS | Tailwind CSS | Framer Motion | DaisyUI",
       img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=500&fit=crop",
-      liveLink: "#",
-      clientLink: "#",
-      serverLink: "#",
+      liveLink: "https://portfolio-tanmoy.vercel.app/",
+      clientLink: "https://github.com/tonmoykumarsen/portfolio-tanmoy",
+      // serverLink: "#",
     },
-    {
-      name: "Next Admin Dashboard",
-      tech: "Next JS | Chart JS | Tailwind CSS | MongoDB | Auth",
-      img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=500&fit=crop",
-      liveLink: "#",
-      clientLink: "#",
-      serverLink: "#",
-    },
+    // {
+    //   name: "Next Admin Dashboard",
+    //   tech: "Next JS | Chart JS | Tailwind CSS | MongoDB | Auth",
+    //   img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=500&fit=crop",
+    //   liveLink: "#",
+    //   clientLink: "#",
+    //   serverLink: "#",
+    // },
   ];
 
   return (
