@@ -19,14 +19,14 @@ export default function Projects() {
       clientLink: "https://github.com/tonmoykumarsen/portfolio-tanmoy",
       // serverLink: "#",
     },
-    // {
-    //   name: "Next Admin Dashboard",
-    //   tech: "Next JS | Chart JS | Tailwind CSS | MongoDB | Auth",
-    //   img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=500&fit=crop",
-    //   liveLink: "#",
-    //   clientLink: "#",
-    //   serverLink: "#",
-    // },
+    {
+      name: "Agro Farm Layout",
+      tech: "React JS | React Router | DaisyUI | Context API | Tailwind CSS",
+      img: "https://i.postimg.cc/ZYjx7sZs/screencapture-agro-new-vercel-app-2025-11-15-01-11-13.png",
+      liveLink: "https://agro-new.vercel.app/",
+      clientLink: "https://github.com/tonmoykumarsen/agro-new",
+      // serverLink: "#",
+    },
   ];
 
   return (
