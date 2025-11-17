@@ -42,7 +42,7 @@ export default function About() {
 
             {/* Resume Button */}
             <a
-              href="/Tanmoy_Resume.pdf"
+              href="/ResumeTanmoyKumar.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-lg hover:bg-indigo-500 transition-all duration-300"
