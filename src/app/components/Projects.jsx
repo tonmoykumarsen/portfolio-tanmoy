@@ -27,6 +27,14 @@ export default function Projects() {
       clientLink: "https://github.com/tonmoykumarsen/agro-new",
       // serverLink: "#",
     },
+    {
+      name: "Little CRM",
+      tech: "Laravel | Bootstrap | Mysql | Blade | Eloquent ORM	",
+      img: "https://i.postimg.cc/HkKJmW8S/image.png",
+      // liveLink: "https://agro-new.vercel.app/",
+      // clientLink: "https://github.com/tonmoykumarsen/agro-new",
+      serverLink: "https://github.com/tonmoykumarsen/Little-Crm",
+    },
   ];
 
   return (
